@@ -56,6 +56,14 @@
       "oAP" : "\/design\/structure-tags.sketch",
       "oF" : 0
     },
+    "\/dev\/content\/header.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/header.html",
+      "oF" : 0
+    },
     "\/dev\/global\/head.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -78,7 +86,7 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dev\/index.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/dev\/js\/scripts.js" : {
       "bF" : 0,
@@ -231,19 +239,17 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/styles.scss" : {
-      "aP" : 0,
+    "\/dev\/scss\/styles.css" : {
+      "aP" : 1,
       "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/scss\/styles.css",
+      "oAP" : "\/dev\/scss\/styles-min.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/README.md" : {
       "cB" : 0,
