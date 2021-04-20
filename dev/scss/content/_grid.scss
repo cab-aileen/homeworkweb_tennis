@@ -1,6 +1,33 @@
-.item {
-    background: purple;
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 40px 100px 40px;
+}
+
+.header {
+    grid-column: span 12;
+}
+
+.hero {
+    grid-column: span 12;
+}
+
+.sections {
+    grid-column: span 12;
+}
+
+.sections2 {
+    grid-column: span 12;
+}
+
+.images {
+    grid-column: span 12;
+}
+
+.articles {
+    grid-column: span 12;
+}
+
+.footer {
+    grid-column: span 12;
 }

@@ -9,12 +9,49 @@ figure {
 ul {
     margin: 0;
     padding: 0;
-
-    li {
+     li {
         list-style: none;
     }
 }
 
-.container-grid{
-    display:grid
+.container-grid {
+    display: grid;
+    grid-template-areas: 
+         "header"
+         "hero"
+         "sections"
+         "sections2"
+         "images"
+         "articles"
+         "footer";
+
+    .header {
+        grid-area: header;
+    }
+
+    .hero {
+    grid-area: hero;
+    }
+
+    .sections {
+    grid-area: sections;
+    }
+
+    .sections2 {
+    grid-area: sections2;
+    }
+
+    .images {
+    grid-area: images;
+    }
+
+    .articles {
+    grid-area: articles;
+    }
+
+    .footer {
+    grid-area: footer;
+    }
+    
+
 }

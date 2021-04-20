@@ -367,6 +367,28 @@ ul li {
 
 .container-grid {
   display: grid;
+  grid-template-areas: "header" "hero" "sections" "sections2" "images" "articles" "footer";
+}
+.container-grid .header {
+  grid-area: header;
+}
+.container-grid .hero {
+  grid-area: hero;
+}
+.container-grid .sections {
+  grid-area: sections;
+}
+.container-grid .sections2 {
+  grid-area: sections2;
+}
+.container-grid .images {
+  grid-area: images;
+}
+.container-grid .articles {
+  grid-area: articles;
+}
+.container-grid .footer {
+  grid-area: footer;
 }
 
 /* =============
@@ -390,9 +412,36 @@ p {
   font-weight: 300;
 }
 
-.item {
-  background: purple;
-  margin: 10px;
-  padding: 10px;
-  text-align: center;
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 40px 100px 40px;
+}
+
+.header {
+  grid-column: span 12;
+}
+
+.hero {
+  grid-column: span 12;
+}
+
+.sections {
+  grid-column: span 12;
+}
+
+.sections2 {
+  grid-column: span 12;
+}
+
+.images {
+  grid-column: span 12;
+}
+
+.articles {
+  grid-column: span 12;
+}
+
+.footer {
+  grid-column: span 12;
 }
